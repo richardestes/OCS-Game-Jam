@@ -17,7 +17,6 @@ public class PlayerMovement : MonoBehaviour
     Vector3 velocity;
     public bool isGrounded;
     Vector3 _GroundNormal;
-    
     public Vector3 v_velocity;
     
     Animator _animator;
@@ -50,7 +49,6 @@ public class PlayerMovement : MonoBehaviour
         float z = Input.GetAxis("Vertical");
         
         Vector3 move = transform.right * x + transform.forward * z;
-        
         v_velocity = move * Speed;
         controller.Move(v_velocity * Time.deltaTime);
         

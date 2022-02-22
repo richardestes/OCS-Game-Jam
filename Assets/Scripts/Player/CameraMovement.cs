@@ -6,7 +6,6 @@ using UnityEngine.Rendering.PostProcessing;
 public class CameraMovement : MonoBehaviour
 {
     public Transform playerBody, _camera;
-    
     [Space]
     public Transform toLook = null;
     public Vector3 toLookOffset = Vector3.zero;
@@ -63,7 +62,6 @@ public class CameraMovement : MonoBehaviour
     
     void LateUpdate() {
         if(!GameManager.isPlaying || Target == null) return;
-        
         transform.position = Vector3.Lerp(transform.position, Target.position, SmoothSpeed * Time.deltaTime);
     }
 }
