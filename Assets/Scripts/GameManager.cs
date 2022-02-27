@@ -68,7 +68,7 @@ public class GameManager : MonoBehaviour
     public void GoEnd() {
         GameManager.isPlaying = false;
         Cursor.lockState = CursorLockMode.None;
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(4);
     }
     
     public void Exit() {

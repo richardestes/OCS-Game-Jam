@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: de647a99cbff9e812a2827052c7bdae6
   - enabled: 1
-    path: Assets/Scenes/Town.unity
-    guid: fab5adc89e7c3799abcf6ac5c8dab993
-  - enabled: 1
     path: Assets/Scenes/Circus.unity
     guid: 6a255799d6bea817f9893f6901e85ec7
   - enabled: 1
